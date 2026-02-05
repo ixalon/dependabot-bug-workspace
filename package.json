@@ -1,0 +1,22 @@
+{
+  "name": "dependabot-bug-workspace",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of Dependabot bug where optional peer dependencies are removed in workspace scenarios",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ixalon/dependabot-bug-workspace.git"
+  },
+  "devDependencies": {
+    "@angular-devkit/schematics": "^19.0.0",
+    "@nestjs/schematics": "^10.0.0",
+    "chokidar": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
