@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/packages/app"
+    directory: "/"
     schedule:
       interval: "daily"
     allow:
